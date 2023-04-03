@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+ul{
+    color: orangered;
+}
+a{
+    /* color: cyan; */
+    color: inherit; /* body neyse o olur */
+    /* inherit dersek babasının özelliklerini alır */
+}
+li{
+    color: yellow;
+}

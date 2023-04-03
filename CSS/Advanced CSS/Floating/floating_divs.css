@@ -1,0 +1,33 @@
+/* hcss + Ctrl + 0 */
+body {
+  background-color: black;
+  color: aliceblue;
+}
+#container{
+    background-color: aquamarine;
+    width: auto;
+
+}
+div{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    overflow: auto;
+}
+#fisrt{
+    background-color: blue;
+    float: left;
+}
+#second{
+    background-color: greenyellow;
+    float: left;
+}
+#thirty{
+    background-color: red;
+    float: left;
+}
+#fourty{
+    background-color: green;
+    float: left;
+}
+

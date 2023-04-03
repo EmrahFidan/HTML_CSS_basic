@@ -1,0 +1,27 @@
+body{
+background-color: black;
+color: aliceblue;
+margin: 0;
+}
+.Kutu{
+    width: 150px;
+    height: 150px;
+    /* float: left; */
+    /* margin-right: 10px; */
+    /* margin: 50px 100px 50px 20px; */
+}
+#kutu1{
+    background-color: rgb(130, 14, 31);
+}
+#kutu2{
+    background-color: rgb(4, 110, 4);
+    margin: auto; /* sayfanın otomatik olarak ortasına konuyor, bu özellik gövde kısmı için kukllanılıyor */
+}
+#kutu3{
+    background-color: rgb(5, 110, 105);
+}
+span{
+    display: block;
+    margin-left: 10px;
+    margin-right: 50px;
+}

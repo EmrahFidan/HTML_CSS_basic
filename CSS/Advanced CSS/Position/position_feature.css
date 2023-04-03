@@ -1,0 +1,52 @@
+body{
+background-color: black;
+color: aliceblue;
+}
+div{
+    background-color: chocolate;
+    color: black;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+}
+
+/* position static */
+/* bizim default olarak verdiğimiz değer */
+
+/* position relative */
+/* left-right-top-bottom şeklinde 4 farklı konumlandırabiliyoruz */
+/* #div2{
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+    left: 50px;
+} */
+
+/* position absolute */
+/* sayfanın başlangıç noktasından itibaren işlem yapmanıza olanak sağlar */
+/* #div2{
+    background-color: aqua;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+} */
+
+/* position fixed */
+/* sayfayı değiştirmemize rağmen yani scroll yaparken fixed de sabit kalınıyor */
+/* #div2{
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+} */
+
+/* position sticky */
+/* sayfayı aşağıya doğru indirmenize rağmen sticky bölümü aynı olduğu yerde kalmaya devam eder */
+/* sitelerdeki menu barlar için kullanılır genellikle */
+/* #div1{
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+    padding: 50px;
+    font-size: 20px;
+} */

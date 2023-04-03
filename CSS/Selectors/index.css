@@ -1,0 +1,96 @@
+/* Group selectors
+
+(p) --> Tüm p etiKetleri
+
+(div p) --> div içerisindeKi tüm p etiKetleri
+
+(div,p) --> Tüm div ve Tüm p etiKetleri
+
+(p + div) --> p etiKEtinden sonra gelen div etiti 
+
+*/
+
+/* p{
+    color:red;
+} */
+
+/* div p{
+    color: blue;
+} */
+
+/* .container div p{
+    color: rgb(5, 244, 5);
+} */
+
+/* div ,p{
+    color: blue;
+} */
+
+/* div+p{
+    color: blue;
+} */
+
+/* Attiribute selectors 
+
+h2[title="basliK1"]{
+    color: red;
+}
+
+p[title="p1"]{
+    color: aqua;
+    text-align: center;
+}
+
+a[target="_blank"]{
+    color: red;
+}
+
+input[type="text"]{
+    background-color: rgb(228, 10, 170);
+} */
+
+/* Pseudo selectors */
+
+/* Pseudo elements */
+
+/* paragrafın ilk satırları Kalın olsun istersek */
+p::first-line{
+    font-weight: bold;
+    color: darkgreen;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+/* ilk harf */ 
+p::first-letter{
+    font-size: 50px;
+}
+
+/* Pseudo class */ 
+/* aralarındaki fark belli bir kesitin özelliğini değiştirebiliyoruz */ 
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child{
+    background-color: darkgreen;
+}
+
+ul li:last-child{
+    background-color: rgb(23, 130, 218);
+}
+
+a:hover{
+    color: rgb(246, 5, 5);
+    background-color: lightblue;
+}
+
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 500px;
+    margin-bottom: 20px;
+}
+

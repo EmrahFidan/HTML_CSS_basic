@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        body{
+            background-color: black;
+            color: blueviolet;
+        }
+        div{
+            width: 400px;
+            height: 100px;
+            /* display ekledikten sonra height ve width gereksiz oluyor */
+            background-color: lightblue;
+            margin: 5px;
+            display: inline-block; /* hem inline hem de block özelliği için weight ve height devreye girmiş oluyor */
+        }
+        a{
+            display: block;
+        }
+        span{
+            display: block; 
+        }
+        #Kutu1{
+            display: none; /* görünmezlik */
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="Kutu1">Kutu 1</div>
+    <div id="Kutu2">Kutu 2</div>
+
+    <br><br>
+    <a href="">Link 1</a>
+    <a href="">Link 2</a>
+    <a href="">Link 3</a>
+
+    <br><br><br>
+    <span>Lorem ipsum dolor sit amet consectetur</span>
+    <span>Lorem ipsum dolor sit amet consectetur</span>
+    <span>Lorem ipsum dolor sit amet consectetur</span>
+
+</body>
+</html>

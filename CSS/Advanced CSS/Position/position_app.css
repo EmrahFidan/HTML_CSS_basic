@@ -1,0 +1,29 @@
+body{
+background-color: black;
+color: aliceblue;
+}
+.Kutu{
+    width: 150px;
+    height: 150px;
+}
+#kutu1{
+    background-color: rgb(130, 14, 31);
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+#kutu2{
+    background-color: rgb(4, 110, 4);
+    /* position: absolute;
+    top: 50px;
+    left: 50px; */
+}
+#kutu3{
+    background-color: rgb(5, 110, 105);
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

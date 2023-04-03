@@ -1,0 +1,15 @@
+body{
+    /* background-color: black; */
+    background-image: linear-gradient(to bottom right, #000000, #414141);
+    color: aliceblue;
+}
+#state1{
+    color: blue;
+    font-size: 20px;
+    background-color: moccasin;
+    width: 75%;
+    height: 200px;
+    /* yazıların taşmasını engellemek için */
+    overflow: scroll; /* bence gereksiz, height koymazsak problem yok */
+}
+

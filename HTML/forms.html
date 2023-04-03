@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>
+       Forms
+    </title>
+
+    <br>
+
+  </head>
+
+  <body bgcolor="FFF33">
+    <!-- text boxes, radio buttons, checkboxes, drop-down menus, and more...  -->
+    <!-- Bir Web formunun iki temel bileşeni vardır: Kabuk kullanıcının doldurduğu bölüm ve 
+    bunu işleyen komut dosyası -->
+    <form>
+        <!-- text box -->
+        <!-- maxlength = içine yazdığın Kısım -->
+        <!-- value = default textbox'un içi -->
+        <!-- name = KOmut yazacağımız zaman ulaşacağımız etiket -->
+        <input type="text" name="FirstName" value="" size="20" maxlength="20">
+        <br><br>
+        Last Name : <input type="text" name="LastName" value="" size="20" maxlength="20">
+        <br><br>
+
+        <!-- add textArea -->
+        <textarea name="ChecK" id="" cols="15" rows="5">
+            emrah
+        </textarea>
+        <br><br>
+        <!-- hepsinin name aynı olmalı çünKü radiobutton -->
+        <input type="radio" name="size" value="Large">Large
+        <input type="radio" name="size" value="Medium">Medium
+        <input type="radio" name="size" value="Small">Small
+        <br><br>
+
+        <!-- add checKbox -->
+        <br>Color <br>
+        <input type="checkbox" name="color" value="red">Red
+        <input type="checkbox" name="color" value="Navy">Navy
+        <input type="checkbox" name="color" value="black">black
+        <br><br>
+
+        <!-- drop-down menu -->
+        <b>Which is favourite football team ?</b>
+        <select>
+            <option value="empty">
+            <option value="Fenerbahce">Fenerbahçe
+            <option value="Galatasaray">Galatasaray
+            <option value="Besiktas">Beşiktaş
+            <option value="Trabzonspor">Trabzonspor
+        </select>
+        <br><br>
+
+    </form>
+
+  </body>
+</html>

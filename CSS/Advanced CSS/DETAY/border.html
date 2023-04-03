@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        body{
+            background-color: black;
+            color: antiquewhite;
+        }
+        .kutu{
+            width: 300px;
+            height: 300px;
+            background-color: darkgreen;
+            margin: 20px;
+            padding: 20px;
+        }
+        #kutu1{
+            border: 5px solid red; ;
+            /* boyutu, kalınlığı, rengi */
+            border-style: double;
+            border-radius: 50%; /* kenarlık */ 
+            /* veya px kullanabilirsin profil fotosu için*/
+        }
+        #kutu2{
+            border: 7.5px solid; ;
+            border-image: linear-gradient(135deg, purple, orange) 7.5;
+        }
+        #kutu3{
+            /* kutunun bellirli tarafına çerçeve ekleme */
+            border-right: 10px solid;
+            border-image: linear-gradient(45deg, rgb(48, 5, 237), rgb(175, 6, 6)) 1;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="kutu" id="kutu1">KUTU 1</div>
+    <div class="kutu" id="kutu2">KUTU 2</div>
+    <div class="kutu" id="kutu3">KUTU 3</div>
+
+</body>
+</html>
