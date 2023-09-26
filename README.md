@@ -27,35 +27,43 @@
 <br>
 
 
-
-This project is the project folder I use to learn HTML and CSS syntax, with basic and intermediate project examples.
-
-
-<h2 style="color: #fee440;"> Features </h1>
-
-- HTML, CSS 
-- LC -> Learning Code 
+This project is the project folder that I am using to learn the syntax of HTML and CSS, with examples of basic and intermediate projects.
 
 
-<h2 style="color: #fee440;"> Lessons Learned </h1>
+<h2 style="color: #fee440;"> Features </h2>
 
-Sayfa Uyumlu Olmuyor -> Web sitelerini farklı cihazlarda ve ekran boyutlarında düzgün bir şekilde görüntülemek zor olabiliyor bunu CSS medya sorguları kullanarak çözdüm. 
+Here are some of the main features of this project:
 
-İçerik hiyerarşisini anlamakta zorlandım ve bunun çözümü için yorum satırlarını daha efektif kullanmayı öğrendim. 
+- HTML, CSS: This project is primarily built using HTML and CSS, making it compatible with web browsers and ensuring a smooth user experience.
 
- > HTML (HyperText Markup Language) ve CSS (Cascading Style Sheets), her ikisi de web geliştirme için kullanılan işaretleme dili ve stil dili olarak sınıflandırılır.
+- LC (Learning Code): This project includes a Learning Code feature, which allows users to enhance their skills and knowledge.
 
-- HTML, sayfanın içeriğini hiyerarşik bir şekilde tanımlamanıza olanak tanır. 
 
-- CSS, HTML içeriğine görsel bir çekicilik ve düzen kazandırmak için kullanılır. 
+<h2>Installation of the project</h2>
+
+<pre>
+<code>
+git clone https://github.com/EmrahFidan/HTML_CSS_basic.git
+</code>
+</pre>
+
+<h2 style="colour: #fee440;"> Lessons Learned </h1>
+
+Page Not Compatible -> It can be difficult to get websites to display correctly on different devices and screen sizes, so I solved this by using CSS media queries. 
+
+I struggled to understand the hierarchy of content and learned to use comment lines more effectively to solve this. 
+
+ > HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are classified as a markup language and a style language, both of which are used in web development.
+
+- HTML allows you to define the content of the page in a hierarchical way. 
+
+- CSS is used to add visual appeal and order to HTML content. 
+
+
 
 <h2 style="color: #fee440;"> Feedback </h1>
 
 If you have any feedback, please contact me at: emrahfdn.work@gmail.com
 
-
-<h2 style="color: #fee440;"> Software developers </h1>
-
-- [@EmrahFidan](https://github.com/EmrahFidan)  for code.
 
   
